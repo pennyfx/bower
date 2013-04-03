@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.8.6 - 2013-04-03
+- Lock `unzip` to `0.1.4` to fix extraction of zip files in node `0.8.x`   
+  An upcoming release to fix node `0.10.x` will be available soon.
+- Fix error summary being displayed too soon.
+
 ## 0.8.5 - 2013-03-04
 - Fix `cache-clean` command clearing the completion cache when the command was called with specific packages
 - Add error message when an error is caught parsing an invalid `component.json`
